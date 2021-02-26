@@ -1,0 +1,18 @@
+.gen1 {
+  font-family: "Pokemon Generation 1 Regular";
+}
+
+.selected {
+  border: 2px solid black;
+  border-radius: 25px;
+}
+.selected::before {
+  content: ">";
+}
+.selected::before.caught {
+  content: "> &";
+}
+
+.caught::before {
+  content: "&";
+}
